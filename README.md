@@ -113,7 +113,7 @@ At this point, your mitm is running, but the certificate pinning of the app will
 With everything in place, we use Objection to hook into the app and disable the pinning logic.
 1. Launch the Objection console:
    ``` bash
-   objection -g "app process" explore
+    objection -n "app process" start
    ```
    Rememeber, at this point you should have Frida installed so you can run ```bash frida-ps -U``` to see the process running.
 2. Execute the bypass command:
