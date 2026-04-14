@@ -1,0 +1,5 @@
+frida-server
+*.0
+*.crt
+*.xz
+.DS_Store (si usas Mac)
